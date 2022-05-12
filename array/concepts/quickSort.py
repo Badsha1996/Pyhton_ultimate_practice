@@ -39,8 +39,9 @@ class sort:
             arr[left] , arr[high] = arr[high], arr[left]
         return left
 
+# Driver fuction for testing function 
 if __name__=="__main__":
-    arr = [90,80,68,21,18,26,30]
+    arr = [90,80,68,21,18,26,30,float("inf"),0,7]
     obj = sort()
     ans = obj.quick_sort(arr, 0, len(arr)-1)
     print(ans)
