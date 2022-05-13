@@ -13,7 +13,6 @@ import sys
 sys.setrecursionlimit(2**10)
 
 class sort:
-    
     def __init__(self):
         pass
     # sorting method 
