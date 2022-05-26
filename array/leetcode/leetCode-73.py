@@ -2,6 +2,11 @@
 # Set Matrix Zeroes
 # leetcode - 73 
 # Algorihtm :
+        # use first row and coloum as tracker 
+        # if encounter any 0 just set both first row and coloum to zero 
+        # loop throuh the first row and col and set zero accordingly 
+        # Time Complexity - O(n^2)
+        # Space Complexity - O(1)
 
 
 from typing import List
@@ -9,12 +14,6 @@ from typing import List
 
 class Solution:
     def setZeroes(self, matrix: List[List[int]]) -> None:
-        # use first row and coloum as tracker 
-        # if encounter any 0 just set both first row and coloum to zero 
-        # loop throuh the first row and col and set zero accordingly 
-        # Time Complexity - O(n^2)
-        # Space Complexity - O(1)
-        
         Rows = len(matrix)
         Cols = len(matrix[0])
         
