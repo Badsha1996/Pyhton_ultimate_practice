@@ -1,3 +1,8 @@
+# Algorithm 
+    # take two ptr at the begenning , one at end the end
+    # if we encounter 0 then swap it at first 
+    # if we encounter 2 swap it to the end 
+    # one edge case - rember after right swap do not increment your i pointer  
 from typing import List
 
 
