@@ -28,7 +28,7 @@ class BinaryTree:
             return 
         queue = deque([self.root])
         while queue:
-            treeNode = queue[0]
+            treeNode = queue.pop()
             if not treeNode.left:
                 treeNode.left = node
                 break
